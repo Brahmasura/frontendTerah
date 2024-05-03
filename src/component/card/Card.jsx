@@ -1,6 +1,6 @@
 import style from "./card.module.scss";
 
-const Card = ({ image, name, title, description, color }) => {
+const Card = ({ image, name, title, description, color, paraColor }) => {
   return (
     <>
       <div className={style.cardDiv} style={{ background: color }}>
@@ -12,8 +12,8 @@ const Card = ({ image, name, title, description, color }) => {
           </div>
         </div>
 
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1 style={{color: paraColor}}>{title}</h1>
+        <p style={{color: paraColor}}>{description}</p>
       </div>
       ;
     </>

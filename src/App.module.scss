@@ -11,24 +11,29 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
 
-    
-
     .first {
       grid-column: 1 / span 2;
       grid-row: 1;
+      height:35.5vh;
     }
 
     .second {
       grid-column: 3;
       grid-row: 1;
+      height:35.5vh;
     }
 
     .third {
       grid-row: 1 / span 2;
     }
 
+    .fourth{
+      height:35.5vh;
+    }
+
     .fifth {
       grid-column: 2 / span 2;
+      height:35.5vh;
     }
   }
 }
