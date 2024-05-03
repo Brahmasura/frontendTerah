@@ -63,6 +63,7 @@ function App() {
       <div className={style.mainDiv}>
         <div className={style.container}>
           <div className={style.first}>
+          {
             <Card
               image={cardArray[0].image}
               name={cardArray[0].name}
@@ -71,6 +72,8 @@ function App() {
               color={cardArray[0].color}
               paraColor={cardArray[0].paraColor}
             />
+          }
+         
           </div>
           <div className={style.second}>
             <Card
@@ -115,7 +118,7 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
 export default App;

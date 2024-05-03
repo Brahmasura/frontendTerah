@@ -15,7 +15,7 @@ const Card = ({ image, name, title, description, color, paraColor }) => {
         <h1 style={{ color: paraColor }}>{title}</h1>
         <p style={{ color: paraColor }}>{description}</p>
       </div>
-      ;
+      
     </>
   );
 };
