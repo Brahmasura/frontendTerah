@@ -3,37 +3,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: hsl(210, 46%, 95%);
   .container {
     width: 80vw;
-    // height: 75vh;
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
 
     .first {
       grid-column: 1 / span 2;
       grid-row: 1;
-      height:35.5vh;
+      height: 35.5vh;
     }
 
     .second {
       grid-column: 3;
       grid-row: 1;
-      height:35.5vh;
+      height: 35.5vh;
     }
 
     .third {
       grid-row: 1 / span 2;
     }
 
-    .fourth{
-      height:35.5vh;
+    .fourth {
+      height: 35.5vh;
     }
 
     .fifth {
       grid-column: 2 / span 2;
-      height:35.5vh;
+      height: 35.5vh;
     }
   }
 }
